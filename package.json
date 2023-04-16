@@ -7,13 +7,15 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "crack": "strapi-crack"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.9.1",
-    "@strapi/plugin-users-permissions": "4.9.1",
+    "@mihtonmi/strapi-crack-ee": "^1.0.4",
+    "@strapi/plugin-documentation": "^4.9.1",
     "@strapi/plugin-i18n": "4.9.1",
+    "@strapi/plugin-users-permissions": "4.9.1",
+    "@strapi/strapi": "4.9.1",
     "better-sqlite3": "8.0.1"
   },
   "author": {
